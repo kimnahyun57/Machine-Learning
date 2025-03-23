@@ -52,6 +52,37 @@ R : 통계 전용 프로그램 언어. SPSS, SAS 등
 2차원 기반의 데이터는 판다스를 통해서... 
 Seaborn이 API가 좀 더  깔끔함..
 
+4. 사이킷런 업그레이드 수행 및 XGBoost와 LightGBM 설치
+- pip install scikit-learn==1.0.2 
+1.0.2 버전으로 통일하여 사이킷런 설치
+---------------
+파이썬 버전이 3.8보다 낮거나 3.10보다 높으면 3.10으로 다시 설치하시고 싸이킷 설치하시면 됩니다. 싸이킷 1.0.2 버전은 파이썬 3.8에서 3.10만 지원한다고 하네요
+python --version (버전 확인)
+conda install python=3.10
+pip install scikit-learn==1.0.2
+
+다시 아까 new_base 가상환경 console에서(아님 conda activate new_base 수행 후)
+pip install ipykernel
+설치 후
+python -m ipykernel 
+install --user --name=new_base
+를 수행 후에 Mac 메뉴에서 conda 서브 메뉴에 new_base용 jupyter notebook이 설치되는지 확인해 보시기 바랍니다.
+
+> import sklearn
+> print(sklearn.__version__)
+
+
+------------
+XGBoost 설치
+ conda install -c anaconda py-xgboost
+다시 주피터 노트북 들어가서 잘 설치 됐는지 확인.
+import xgboost as xgb
+from xgboost import XGBClassifier
+
+> import xgboost
+> print(xgboost.__version__)
+
+
 
 
 
