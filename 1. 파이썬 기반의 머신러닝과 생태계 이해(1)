@@ -72,6 +72,7 @@ install --user --name=new_base
 > print(sklearn.__version__)
 
 
+
 ------------
 XGBoost 설치
  conda install -c anaconda py-xgboost
@@ -81,5 +82,14 @@ from xgboost import XGBClassifier
 
 > import xgboost
 > print(xgboost.__version__)
+
+1.5.0이 나와야 하는데 난 다운그레이드가 잘  안 됨...
+
+--------------
+
+lightgbm 설치
+> conda install lightgbm
+
+
 
 
