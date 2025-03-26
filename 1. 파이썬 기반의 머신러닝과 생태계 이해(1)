@@ -12,6 +12,7 @@ MNIST (Modified National Institute of Standards and Technology database)
 머신러닝은 복잡한 문제를 데이터 기반으로 숨겨진 패턴을 인지해 해결한다.
 
 
+
 2. 머신러닝의 유형과 데이터의 중요성
 
 지도학습 supervised learning
@@ -34,6 +35,7 @@ MNIST (Modified National Institute of Standards and Technology database)
 - 머신러닝은 블랙박스 (복잡한 알고리즘으로 인해 도출된 결과에 대한 논리적인 이해 어려움)
 
 
+
 3. 파이썬 기반 머신러닝의 특징 및 장점과 구성 요소
 
 R : 통계 전용 프로그램 언어. SPSS, SAS 등 
@@ -51,6 +53,7 @@ R : 통계 전용 프로그램 언어. SPSS, SAS 등
 
 2차원 기반의 데이터는 판다스를 통해서... 
 Seaborn이 API가 좀 더  깔끔함..
+
 
 4. 사이킷런 업그레이드 수행 및 XGBoost와 LightGBM 설치
 - pip install scikit-learn==1.0.2 
@@ -70,8 +73,6 @@ install --user --name=new_base
 
 > import sklearn
 > print(sklearn.__version__)
-
-
 
 ------------
 XGBoost 설치
