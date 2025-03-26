@@ -3,4 +3,23 @@
 > ### 헤더
 > ** 강조 **
 
-2. 
+2. 넘파이 배열 ndarray 소개
+nd + array (n차원 배열)
+
+numpy 모듈의 array 함수로 생성.
+인자로 파이썬 리스트, ndarray 
+
+> import numpy as np
+> array1 = np.array([1, 2, 3])
+
+
+shape로 행과 열의 개수를 알 수  있음 -> tuple
+
+ndarray 타입은 같은 타입만 가능함
+astype으로 타입 변환이 가능함
+
+
+3. 넘파이 배열 ndarray 생성,shape, 차원, 타입 실습
+ndarray는 행과 열이 아닌 axis로 부여됨
+
+데이터 초기화 -> arange(), zeros(), ones()
